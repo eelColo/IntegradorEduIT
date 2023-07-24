@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: auto;
+}
+
+
+
+
+nav{
+   border: 1px black solid;
+   height: 80px; 
+   padding-bottom: 50px;
+   
+}
+nav img{
+    height: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+.presentacion{
+    
+    background-image: url(../imgs/home-lg.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.presentacion div h2{
+    background-color: aquamarine;
+    color: aliceblue;
+    text-align: end;
+    
+    
+}
+
+
+
