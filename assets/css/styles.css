@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0%;
-    margin: auto;
+    
 }
 
 
@@ -23,7 +23,7 @@ nav a{
 }
 
 
-
+/*imagen de fondo*/
 .presentacion{
     
     background-image: url(../imgs/home-lg.jpg);
@@ -32,12 +32,25 @@ nav a{
     background-position:center;
     background-size: cover;
 }
-.presentacion div h2{
-    background-color: aquamarine;
-    color: aliceblue;
-    text-align: end;
-    
-    
+/*etiqueta de presentacion*/
+.e{
+    margin-top: 220px;
+}
+
+
+.entrada img{
+    width: 50%;
+}
+.entrada h6{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color: gray;
+    color: white;
 }
 
 
