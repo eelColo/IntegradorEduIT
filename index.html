@@ -9,15 +9,21 @@
 </head>
 <body>
 
-    
+
         <nav>
-            <a href=""  ><img src="assets/imgs/logoGC.png" alt=""></a>
-            <a href="">QUIENES SOMOS</a>
-            <a href="">PROYECTO</a>
-            <a href="">ACTIVIDADES</a>
-            <a href="">COLABORAR</a>
-            <a href="">INSCRIPCIONES</a>
-            <img src="assets/imgs/logoGC175x178.png" alt="">
+            <div class="container-fluid mt-2">
+                
+                <a href="index.html"><img src="assets/imgs/logoGC.png" alt="img_logo"></a>
+                
+                <a href="">QUIENES SOMOS</a>
+                <a href="">PROYECTO</a>
+                <a href="">ACTIVIDADES</a>
+                <a href="">COLABORAR</a>
+                <a href="">INSCRIPCIONES</a>
+                
+                
+                
+            </div>
         </nav>
 
 
@@ -31,24 +37,24 @@
             <div class="row">
                 <div class="col-8"><!--relleno--></div>
                 <div class="e col">
-                    <h2 style="background-color: greenyellow;">Trabajamos por una gran causa</h2>
+                    <h2 style="background-color: #4BC133; color: white;">Trabajamos por una gran causa</h2>
                 </div>
             </div>
         </div>
         </section>
 
         <section>
-            <div class="container-fluid row m-3 entrada justify-content-center">
+            <div class="container-fluid row entrada justify-content-center mt-5 mb-5">
                 <!--Imagen logo junto con texto-->
                 <div class="col-2"><img class="imgp" src="assets/imgs/gc.png" alt=""></div>
 
 
 
-                <div class="col-6 align-self-center">
+                <div class=" col-6 align-self-center">
                     <div>
                             <h6>GC es una organización sin fines de lucro 
                             </h6>
-                            <h6> <span class="text-bg-info">
+                            <h6 style="background-color: #37D7F7 ; color: white;"> 
                             que trabaja para promover el desarrollo integral de niños, niñas y adolescentes a través de la educación, </span>
                             </h6>
                             <h6>
@@ -87,8 +93,8 @@
 
     <!--footer con informacion-->
     <footer>
-        <div class="row container-fluid">
-            <div class="col-5">
+        <div class="row container-fluid p-5">
+            <div class="col-6 mt-3">
                 <h4 class="text-center" style="background-color: yellowgreen;">Escribinos</h4>
                 <ul>
                     <li>Manzoni 1360</li>
@@ -97,18 +103,36 @@
                     <li>Tel. (54)5277 0815</li>
                     <li>info@proyectogc.org</li>
                 </ul>
+                <img class="align-self-center col-3" src="assets/imgs/logoGC_slogan.webp" alt="">
                 
             </div>
-            <div class="col">
-                <form action="">
+
+            <!--Form-->
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" class="form-control" required id="email" placeholder="email@mail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="com">Mensaje</label>
+                        <input style="height: 100px;" type="text" class="form-control" id="com" required>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
 
                 </form>
             </div>
 
-
+            <!--Imagen al final-->
         </div>
-        <div class="container-fluid row-cols-6  bg-">
-            <img class="align-self-center" src="assets/imgs/logoGC_slogan.webp" alt="">
+        <div class="container-fluid row">
+            
         </div>
 
     </footer>

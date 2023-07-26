@@ -1,27 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0%;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
-
+/*navegador */
 
 nav{
    border: 1px black solid;
-   height: 80px; 
-   padding-bottom: 50px;
+   height: 70px; 
+   
    
 }
-nav img{
-    height: 50px;
+
+nav div a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
     
 }
-nav a{
-    text-decoration: none;
-    margin: 10px;
+a:hover{
+    color: #3c4146;
 }
 
+
+nav div a img{
+    height: 50px;
+    
+    
+}
 
 /*imagen de fondo*/
 .presentacion{
@@ -38,20 +51,34 @@ nav a{
 }
 
 
+
 .entrada img{
     width: 50%;
 }
 .entrada h6{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+h6 span{
 }
 ul{
     list-style: none;
+    
+}
+li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
 }
 
 footer{
     background-color: #3c4146;
     color: white;
     
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
 }
 
 
