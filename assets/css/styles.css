@@ -14,8 +14,6 @@
 nav{
    border: 1px black solid;
    height: 70px; 
-   
-   
 }
 
 nav div a{
@@ -34,6 +32,9 @@ nav div a img{
     height: 50px;
     
     
+}
+nav li{
+    margin: 10px;
 }
 
 /*imagen de fondo*/
