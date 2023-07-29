@@ -88,7 +88,11 @@ footer{
     font-family: 'Roboto', sans-serif;
 }
 
-
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .s{
     width: 10px;
